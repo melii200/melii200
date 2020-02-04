@@ -22,7 +22,11 @@ body {
     text-align: center;
   }
 
-#navigationklasse {
+  navigationklasse {
     color: black;
     text-align: center;
-}
+    width: 300px;
+    border: 15px solid rgb(204, 171, 214);
+    padding: 50px;
+    margin: 20px;
+  }
