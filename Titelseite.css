@@ -12,6 +12,16 @@ body {
     text-align: left;
   }
 
+  h3 {
+    color: white;
+    text-align: left;
+  }
+
+  h4 {
+    color: rgba(255, 255, 255, 0.459);
+    text-align: center;
+  }
+
 #navigationklasse {
     color: black;
     text-align: center;
