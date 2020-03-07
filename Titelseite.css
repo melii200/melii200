@@ -2,32 +2,51 @@ body {
     background-color: white;
   }
   
-  h1 {
+h1 {
     color: black;
     text-align: left;
   }
   
-  h2 {
+h2 {
     color: black;
     text-align: left;
   }
 
-  h3 {
+h3 {
     color: black;
     text-align: left;
   }
+ul {
+    list-style-type: none;
+  }
+/* unvisited link */
+a:link {
+  color: black;
+}
+/* visited link */
+a:visited {
+  color: black;
+}
+/* mouse over link */
+a:hover {
+  color: rgb(134, 49, 89);
+}
+/* selected link */
+a:active {
+  color: hotpink;
+}
 
-  #notsoimportant {
-    color: grey;
+#notsoimportant {
+    color: rgb(70, 70, 70);
     text-align: center;
     width: 100%;
   }
 
-  #navigationklasse {
+#Chemie {
     color: black;
     text-align: center;
     width: 100%;
-    border: 50px solid rgb(204, 171, 214);
+    border: 30px solid rgba(45, 109, 114, 0.692);
     padding: 50px;
-    margin: 20px;
+    margin: 50px;
   }
