@@ -47,6 +47,9 @@ a:active {
     color: rgb(70, 70, 70);
     text-align: center;
     width: 100%;
+    border: 30px slateblue;
+    padding: 50px;
+    margin: 30pc;
   }
 
   #Chemie {
