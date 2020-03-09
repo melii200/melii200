@@ -50,7 +50,11 @@ a:active {
       right: 0;
       width: 300px;
       border: 3px solid  rgba(222, 184, 135, 0.555);
-      background-color: rgba(224, 202, 173, 0.555);
+  }
+  #nav{
+    color: black;
+    text-align: left;
+    margin-left: 10px;
   }
 
   #notsoimportant {
@@ -67,6 +71,7 @@ a:active {
     border: 30px solid rgba(45, 109, 114, 0.692);
     padding: 50px;
     margin: auto;
+    background-color: rgba(255, 255, 255, 0.712);
   }
   #Philosophie {
     color: black;
@@ -75,6 +80,7 @@ a:active {
     border: 30px solid rgba(60, 45, 114, 0.692);
     padding: 50px;
     margin: auto;
+    background-color: rgba(255, 255, 255, 0.712);
   }
   #Geography {
     color: black;
@@ -83,6 +89,7 @@ a:active {
     border: 30px solid rgba(45, 114, 57, 0.692);
     padding: 50px;
     margin: auto;
+    background-color: rgba(255, 255, 255, 0.712);
   }
   #Deutsch {
     color: black;
@@ -91,4 +98,5 @@ a:active {
     border: 30px solid rgba(114, 45, 60, 0.692);
     padding: 50px;
     margin: auto;
+    background-color: rgba(255, 255, 255, 0.712);
   }
