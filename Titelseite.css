@@ -67,7 +67,7 @@ a:active {
   #Chemie {
     color: black;
     text-align: center;
-    width: 90%;
+    width: auto;
     border: 30px solid rgba(45, 109, 114, 0.692);
     padding: 50px;
     margin: auto;
@@ -76,7 +76,7 @@ a:active {
   #Philosophie {
     color: black;
     text-align: center;
-    width: 90%;
+    width: auto;
     border: 30px solid rgba(60, 45, 114, 0.692);
     padding: 50px;
     margin: auto;
@@ -94,7 +94,7 @@ a:active {
   #Deutsch {
     color: black;
     text-align: center;
-    width: 90%;
+    width: auto;
     border: 30px solid rgba(114, 45, 60, 0.692);
     padding: 50px;
     margin: auto;
