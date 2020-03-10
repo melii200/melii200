@@ -112,7 +112,7 @@ a:active {
     grid-row: 2/2;
   }
 
-.gridcontainer 
+.grid-container 
 {
   display: grid;
   justify-content: space-between;
