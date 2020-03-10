@@ -115,5 +115,4 @@ a:active {
 .grid-container 
 {
   display: grid;
-  align-content: space-evenly;
 }
