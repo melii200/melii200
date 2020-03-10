@@ -28,6 +28,12 @@ ul {
     margin: 0;
     padding: 0;
   }
+
+  #layout
+  {
+    display:flex;
+    flex-wrap: wrap;
+  }
 /* unvisited link */
 a:link {
   color: black;
