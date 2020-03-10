@@ -31,8 +31,7 @@ ul {
 
   #layout
   {
-    display:flex;
-    flex-wrap: wrap;
+    position: relative;
   }
 /* unvisited link */
 a:link {
