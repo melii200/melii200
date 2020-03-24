@@ -115,6 +115,6 @@ a:active {
 
   .grid-container {
     display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
 }
