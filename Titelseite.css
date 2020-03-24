@@ -116,7 +116,7 @@ a:active {
   .grid-container {
     display: grid;
 
-    grid-template-columns: repeat(300px, 1fr 1fr);
+    grid-template-columns: repeat(300px 300px);
     grid-auto-rows: minmax(200px, auto);
     grid-gap: 50px;
 }
