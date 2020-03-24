@@ -22,6 +22,7 @@ h2 {
 h3 {
     color: black;
     text-align: center;
+    margin-top: 8px;
   }
 ul {
     list-style-type: none;
@@ -74,7 +75,7 @@ a:active {
     height:300px;
     width: 350px;
     border: 30px solid rgba(45, 109, 114, 0.692);
-    padding: 50px;
+    padding: 20px;
     margin: 20px;
     background-color: rgba(255, 255, 255, 0.712);
     grid-row: (1/2);
@@ -88,7 +89,7 @@ a:active {
     height:300px;
     width: 350px;
     border: 30px solid rgba(60, 45, 114, 0.692);
-    padding: 50px;
+    padding: 20px;
     margin: 20px;
     background-color: rgba(255, 255, 255, 0.712);
     grid-row: (2/2);
@@ -101,7 +102,7 @@ a:active {
     height:300px;
     width: 350px;
     border: 30px solid rgba(45, 114, 57, 0.692);
-    padding: 50px;
+    padding: 20px;
     margin: 20px;
     background-color: rgba(255, 255, 255, 0.712);
     grid-row: (1/2);
@@ -114,7 +115,7 @@ a:active {
     height:300px;
     width: 350px;
     border: 30px solid rgba(114, 45, 60, 0.692);
-    padding: 50px;
+    padding: 20px;
     margin: 20px;
     background-color: rgba(255, 255, 255, 0.712);
     grid-row: (2/2);
@@ -126,4 +127,6 @@ a:active {
     grid-template-columns: repeat(auto-fill, minmax(300px, auto));
     grid-auto-rows: minmax(200px, auto);
     grid-gap: 50px;
+    margin: auto;
+    padding: auto;
 }
