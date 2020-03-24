@@ -128,5 +128,5 @@ a:active {
     grid-auto-rows: minmax(200px, auto);
     grid-gap: 50px;
     margin: auto;
-    padding: auto;
+    padding: 20px;
 }
