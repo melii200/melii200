@@ -85,7 +85,7 @@ a:active {
     padding: 20px;
     box-sizing: border-box;
 }
-#Content {
+.Content {
   color: black;
   text-align: center;
   box-sizing: border-box;
