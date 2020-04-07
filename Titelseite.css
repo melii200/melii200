@@ -68,65 +68,57 @@ a:active {
     background-color: rgba(255, 255, 255, 0.712);
   }
 
-  #Chemie {
+  #Password {
     color: black;
-    text-align: center;
-    box-sizing: border-box;
-    height:300px;
+    text-align: left;
+    background-color: rgba(255, 254, 196, 0.712);
+    margin: 10px; 
     width: 300px;
-    border: 30px solid rgba(45, 109, 114, 0.692);
-    padding: 20px;
-    margin: 20px;
-    background-color: rgba(255, 255, 255, 0.712);
-    grid-row: (1/2);
-    grid-column: (1/2);
-
-  }
-  #Philosophie {
-    color: black;
-    text-align: center;
-    box-sizing: border-box;
-    height:300px;
-    width: 300px;
-    border: 30px solid rgba(60, 45, 114, 0.692);
-    padding: 20px;
-    margin: 20px;
-    background-color: rgba(255, 255, 255, 0.712);
-    grid-row: (2/2);
-    grid-column: (1/2);
-  }
-  #Geography {
-    color: black;
-    text-align: center;
-    box-sizing: border-box;
-    height:300px;
-    width: 300px;
-    border: 30px solid rgba(45, 114, 57, 0.692);
-    padding: 20px;
-    margin: 20px;
-    background-color: rgba(255, 255, 255, 0.712);
-    grid-row: (1/2);
-    grid-column: (2/2);
-  }
-  #Deutsch {
-    color: black;
-    text-align: center;
-    box-sizing: border-box;
-    height:300px;
-    width: 300px;
-    border: 30px solid rgba(114, 45, 60, 0.692);
-    padding: 20px;
-    margin: 20px;
-    background-color: rgba(255, 255, 255, 0.712);
-    grid-row: (2/2);
-    grid-column: (2/2);
   }
 
-  .grid-container {
+#grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, auto));
     grid-auto-rows: minmax(200px, auto);
     grid-gap: 50px;
     margin: auto;
     padding: 20px;
+    box-sizing: border-box;
 }
+#Content {
+  color: black;
+  text-align: center;
+  box-sizing: border-box;
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.712); 
+}
+  .Chemie {
+    box-sizing: border-box;
+    border: 30px solid rgba(45, 109, 114, 0.692);
+    grid-row: (1/2);
+    grid-column: (1/2);
+
+  }
+  .Philosophie {
+    box-sizing: border-box;
+    border: 30px solid rgba(60, 45, 114, 0.692);
+    grid-row: (2/2);
+    grid-column: (1/2);
+  }
+  .Geography {
+    box-sizing: border-box;
+    border: 30px solid rgba(45, 114, 57, 0.692);
+    grid-row: (1/2);
+    grid-column: (2/2);
+  }
+  .Deutsch {
+    box-sizing: border-box;
+    border: 30px solid rgba(114, 45, 60, 0.692);
+    grid-row: (2/2);
+    grid-column: (2/2);
+  }
+
+

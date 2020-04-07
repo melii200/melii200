@@ -34,10 +34,11 @@
   nicht berücksichtigt.
 </p>
 </div>
+
 <!-- aside shouldcontain information about access-->
 <div id = "information">
  <aside>
-  Bei Interesse für Access-Code 
+  Bei Interesse für Access-Code (1CHF)
   <br>
   <strong>melanie.nueesch@gymnasium-immensee.ch</strong>
   <br>
@@ -45,106 +46,122 @@
 </aside> 
 </div>
 
+<!-- limited acces trial-->
+<div id = Password>
+This page is only an overview.
+Enter passsword to be redirected to page with access to pdf.
+<br>
+<input id='password' type='text'/>
+<a href="../melii200/Titel.html" 
+onclick="javascript:return validatePass()"> Enter</a>
+<script>
+function validatePass(){
+    if(document.getElementById('password').value == 'Gspd2hi45L'){
+        return true;
+    }else{
+        alert('wrong password');
+        return false;
+    }
+}
+</script>
+</div> 
 
-<!-- The topics should be in blocks and linked to pdf-->
-<!-- The pdf should lead to a Vorschau, access with password: java!! -->
+<!-- The topics should be in blocks and listed but not linkes-->
+<div id ="Content">
 <div class="grid-container">
-<div id = "Chemie">
+<div class = "Chemie">
   <h3>Chemie</h3>
-  <script type= "text/javascript"> 
-  function clicked () {
-    alert ("Access Code needed")
-  }
   <ul>
     <li>
-      <a href="../melii200/Anorganische Chemie.pdf">Anorganische/Komplex Chemie</a>
+      Anorganische/Komplex Chemie
     </li>
     <li>
-      <a href="../melii200/Elektrochemie.pdf">Elektrochemie</a>
+      Elektrochemie
     </li>
     <li>
-      <a href="../melii200/Organische Chemie II.pdf">Organische Chemie II</a>
+      Organische Chemie II
     </li>
     <li>
-      <a href="../melii200/Naturstoffe.pdf">Naturstoffe</a>
+      Naturstoffe
     </li>
     <li>
-      <a href="../melii200/Makromoleküle.pdf">Makromoleküle</a>
+      Makromoleküle
     </li>
     <li>
-      <a href="../melii200/Vormatura Chemie.pdf">Vormatura</a>
+      Vormatura
     </li>
   </ul>
   </script>
 </div>
 
-<div id = "Philosophie">
+<div class = "Philosophie">
 <p>
   <h3>Philosophie</h3>
   <ul>
     <li>
-      <a href="../melii200/Anthropologie 2.pdf">Anthropologie</a>
+      Anthropologie
     </li>
     <li>
-      <a href="../melii200/Erkentnisstheorie II.pdf">Erkenntnistheorie</a>
+      Erkenntnistheorie
     </li>
     <li>
-      <a href="../melii200/Ethik 2.pdf">Ethik</a>
+      Ethik
     </li>
     <li>
-      <a href="../melii200/Logik.pdf">Logik</a>
+      Logik
     </li>
     <li>
-      <a href="../melii200/Staatsphilosophie II.pdf">Staatsphilosophie</a>
+      Staatsphilosophie
     </li>
   </ul>
 </p>
 </div>
 
-<div id = "Geography">
+<div class = "Geography">
 <p>
   <h3>Geography</h3>
   <ul>
     <li>
-      <a href="../melii200/Geography-History of Earth.pdf">History of the Earth</a>
+      History of the Earth
     </li>
     <li>
-      <a href="../melii200/Tectonic Plates.pdf">Tectonic Plates</a>
+      Tectonic Plates
     </li>
     <li>
-      <a href="../melii200/Volcanoes and Rocks.pdf">Volcanoes and Rocks</a>
+      Volcanoes and Rocks
     </li>
     <li>
-      <a href="../melii200/Wather & Ckimate 1.pdf">Weather and Climate</a>
+      Weather and Climate
     </li>
     <li>
-      <a href="../melii200/Die Geologie der Schweiz.pdf">Die Geologie der Schweiz</a>
+      Die Geologie der Schweiz
     </li>
   </ul>
 </p>
 </div>
 
-<div id = "Deutsch">
+<div class = "Deutsch">
 <p>
   <h3>Deutsch</h3>
     <ul>
       <li>
-        <a href="../melii200/Deutsch Barock.pdf">Barock</a>
+        Barock
       </li>
       <li>
-        <a href="../melii200/Aufklärung und Nathan der Weise.pdf">Aufklärung</a>
+        Aufklärung
       </li>
       <li>
-        <a href="../melii200/Sturm und Drang.pdf">Sturm und Drang</a>
+        Sturm und Drang
       </li>
       <li>
-        <a href="../melii200/Klassik.pdf">Klassik</a>
+        Klassik
       </li>
       <li>
-        <a href="../melii200/Romantik.pdf">Romantik</a>
+        Romantik
       </li>
     </ul>
 </p>
+</div>
 </div>
 </div>
 
