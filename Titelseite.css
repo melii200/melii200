@@ -76,16 +76,15 @@ a:active {
     width: 300px;
   }
 
-#grid-container {
+.grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, auto));
     grid-auto-rows: minmax(200px, auto);
     grid-gap: 50px;
     margin: auto;
     padding: 20px;
-    box-sizing: border-box;
 }
-.Content {
+.box {
   color: black;
   text-align: center;
   box-sizing: border-box;
@@ -95,27 +94,23 @@ a:active {
   margin: 20px;
   background-color: rgba(255, 255, 255, 0.712); 
 }
-  .Chemie {
-    box-sizing: border-box;
+  #Chemie {
     border: 30px solid rgba(45, 109, 114, 0.692);
     grid-row: (1/2);
     grid-column: (1/2);
 
   }
-  .Philosophie {
-    box-sizing: border-box;
+  #Philosophie {
     border: 30px solid rgba(60, 45, 114, 0.692);
     grid-row: (2/2);
     grid-column: (1/2);
   }
-  .Geography {
-    box-sizing: border-box;
+  #Geography {
     border: 30px solid rgba(45, 114, 57, 0.692);
     grid-row: (1/2);
     grid-column: (2/2);
   }
-  .Deutsch {
-    box-sizing: border-box;
+  #Deutsch {
     border: 30px solid rgba(114, 45, 60, 0.692);
     grid-row: (2/2);
     grid-column: (2/2);
