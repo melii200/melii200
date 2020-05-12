@@ -5,6 +5,7 @@ body {
     background-position: right top;
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
+  
   }
   
 h1 {
@@ -115,5 +116,22 @@ a:active {
     grid-row: (2/2);
     grid-column: (2/2);
   }
+
+  @media screen and (prefers-color-scheme: dark) {
+    body {
+      background-color: black;
+      color: white;
+    }
+    h1, h2, h3, ul, a:link, a:visited {
+      color: white;
+    }
+    .box {
+      background-color: rgba(56, 56, 56, 0.712);
+    }
+    #notsoimportant {
+      color: rgb(180, 180, 180);
+      background-color: rgba(56, 56, 56, 0.712);
+    }
+  } 
 
 
